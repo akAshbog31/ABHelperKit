@@ -1,0 +1,73 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ABNetworkKit
+@_exported import ABNetworkKit
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum APIMethod : Swift.String {
+  case get
+  case post
+  case put
+  case patch
+  case delete
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum Request {
+  case jsonEncoding(_: [Swift.String : Any]?)
+  case urlEncoding(_: [Swift.String : Any]?)
+  case queryString(_: [Swift.String : Any]?)
+  case multiPart(_: ABNetworkKit.MultipartRequest)
+  case requestPlain
+}
+extension Foundation.Data {
+  public mutating func append(_ string: Swift.String, encoding: Swift.String.Encoding = .utf8)
+}
+extension Swift.Dictionary where Key == Swift.String {
+  public var asQueryParam: [Foundation.URLQueryItem] {
+    get
+  }
+}
+extension Swift.Encodable {
+  public var asDictionary: [Swift.String : Any]? {
+    get
+  }
+}
+extension Foundation.URLRequest {
+  public var curlString: Swift.String {
+    get
+  }
+}
+public protocol APIProtocol {
+  var method: ABNetworkKit.APIMethod { get }
+  var baseURL: Swift.String { get }
+  var path: Swift.String { get }
+  var task: ABNetworkKit.Request { get }
+  var header: [Swift.String : Swift.String] { get }
+}
+public enum APIService {
+  public static func request(_ rout: any ABNetworkKit.APIProtocol) async throws -> Foundation.Data
+  public static func request<T>(_ rout: any ABNetworkKit.APIProtocol) async throws -> T where T : Swift.Decodable, T : Swift.Encodable
+  public static func request(_ rout: any ABNetworkKit.APIProtocol) async throws -> [Swift.String : Any]
+}
+public struct MultipartRequest {
+  public let boundary: Swift.String
+  public init(boundary: Swift.String = UUID().uuidString)
+  public mutating func add(key: Swift.String, value: Swift.String)
+  public mutating func add(key: Swift.String, fileName: Swift.String, fileMimeType: Swift.String, fileData: Foundation.Data)
+  public var httpContentTypeHeadeValue: Swift.String {
+    get
+  }
+  public var httpBody: Foundation.Data {
+    get
+  }
+}
+extension ABNetworkKit.APIMethod : Swift.Equatable {}
+extension ABNetworkKit.APIMethod : Swift.Hashable {}
+extension ABNetworkKit.APIMethod : Swift.RawRepresentable {}

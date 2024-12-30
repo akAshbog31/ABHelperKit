@@ -1,0 +1,6 @@
+framework module ABNetworkKit {
+  umbrella header "ABNetworkKit.h"
+  export *
+
+  module * { export * }
+}
