@@ -1,0 +1,1064 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ABWrapperKit",
+    "printedName": "ABWrapperKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ABWrapperKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ABWrapperKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ABInjected",
+        "printedName": "ABInjected",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ABWrapperKit10ABInjectedC12wrappedValuexvp",
+            "mangledName": "$s12ABWrapperKit10ABInjectedC12wrappedValuexvp",
+            "moduleName": "ABWrapperKit",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ABWrapperKit10ABInjectedC12wrappedValuexvg",
+                "mangledName": "$s12ABWrapperKit10ABInjectedC12wrappedValuexvg",
+                "moduleName": "ABWrapperKit",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Service>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ABWrapperKit10ABInjectedC12wrappedValuexvs",
+                "mangledName": "$s12ABWrapperKit10ABInjectedC12wrappedValuexvs",
+                "moduleName": "ABWrapperKit",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Service>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ABWrapperKit10ABInjectedC12wrappedValuexvM",
+                "mangledName": "$s12ABWrapperKit10ABInjectedC12wrappedValuexvM",
+                "moduleName": "ABWrapperKit",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Service>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(resolver:tag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ABInjected",
+                "printedName": "ABWrapperKit.ABInjected<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:12ABWrapperKit10ABInjectedC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ABResolver",
+                "printedName": "ABWrapperKit.ABResolver",
+                "hasDefaultArg": true,
+                "usr": "s:12ABWrapperKit10ABResolverC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12ABWrapperKit10ABInjectedC8resolver3tagACyxGAA10ABResolverC_SSSgtcfc",
+            "mangledName": "$s12ABWrapperKit10ABInjectedC8resolver3tagACyxGAA10ABResolverC_SSSgtcfc",
+            "moduleName": "ABWrapperKit",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Service>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12ABWrapperKit10ABInjectedC",
+        "mangledName": "$s12ABWrapperKit10ABInjectedC",
+        "moduleName": "ABWrapperKit",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Service>",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ABWrapperKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ABOptionalInjected",
+        "printedName": "ABOptionalInjected",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ABWrapperKit18ABOptionalInjectedC12wrappedValuexSgvp",
+            "mangledName": "$s12ABWrapperKit18ABOptionalInjectedC12wrappedValuexSgvp",
+            "moduleName": "ABWrapperKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ABWrapperKit18ABOptionalInjectedC12wrappedValuexSgvg",
+                "mangledName": "$s12ABWrapperKit18ABOptionalInjectedC12wrappedValuexSgvg",
+                "moduleName": "ABWrapperKit",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Service>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ABWrapperKit18ABOptionalInjectedC12wrappedValuexSgvs",
+                "mangledName": "$s12ABWrapperKit18ABOptionalInjectedC12wrappedValuexSgvs",
+                "moduleName": "ABWrapperKit",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Service>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ABWrapperKit18ABOptionalInjectedC12wrappedValuexSgvM",
+                "mangledName": "$s12ABWrapperKit18ABOptionalInjectedC12wrappedValuexSgvM",
+                "moduleName": "ABWrapperKit",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<Service>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(resolver:tag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ABOptionalInjected",
+                "printedName": "ABWrapperKit.ABOptionalInjected<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:12ABWrapperKit18ABOptionalInjectedC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ABResolver",
+                "printedName": "ABWrapperKit.ABResolver",
+                "hasDefaultArg": true,
+                "usr": "s:12ABWrapperKit10ABResolverC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12ABWrapperKit18ABOptionalInjectedC8resolver3tagACyxGAA10ABResolverC_SSSgtcfc",
+            "mangledName": "$s12ABWrapperKit18ABOptionalInjectedC8resolver3tagACyxGAA10ABResolverC_SSSgtcfc",
+            "moduleName": "ABWrapperKit",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<Service>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12ABWrapperKit18ABOptionalInjectedC",
+        "mangledName": "$s12ABWrapperKit18ABOptionalInjectedC",
+        "moduleName": "ABWrapperKit",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Service>",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ABWrapperKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ABResolver",
+        "printedName": "ABResolver",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Key",
+            "printedName": "Key",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:12ABWrapperKit10ABResolverC3KeyV9hashValueSivp",
+                "mangledName": "$s12ABWrapperKit10ABResolverC3KeyV9hashValueSivp",
+                "moduleName": "ABWrapperKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:12ABWrapperKit10ABResolverC3KeyV9hashValueSivg",
+                    "mangledName": "$s12ABWrapperKit10ABResolverC3KeyV9hashValueSivg",
+                    "moduleName": "ABWrapperKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12ABWrapperKit10ABResolverC3KeyV4hash4intoys6HasherVz_tF",
+                "mangledName": "$s12ABWrapperKit10ABResolverC3KeyV4hash4intoys6HasherVz_tF",
+                "moduleName": "ABWrapperKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Key",
+                    "printedName": "ABWrapperKit.ABResolver.Key",
+                    "usr": "s:12ABWrapperKit10ABResolverC3KeyV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Key",
+                    "printedName": "ABWrapperKit.ABResolver.Key",
+                    "usr": "s:12ABWrapperKit10ABResolverC3KeyV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12ABWrapperKit10ABResolverC3KeyV2eeoiySbAE_AEtFZ",
+                "mangledName": "$s12ABWrapperKit10ABResolverC3KeyV2eeoiySbAE_AEtFZ",
+                "moduleName": "ABWrapperKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:12ABWrapperKit10ABResolverC3KeyV",
+            "mangledName": "$s12ABWrapperKit10ABResolverC3KeyV",
+            "moduleName": "ABWrapperKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ABResolver",
+                "printedName": "ABWrapperKit.ABResolver",
+                "usr": "s:12ABWrapperKit10ABResolverC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ABWrapperKit10ABResolverC7defaultACvpZ",
+            "mangledName": "$s12ABWrapperKit10ABResolverC7defaultACvpZ",
+            "moduleName": "ABWrapperKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABResolver",
+                    "printedName": "ABWrapperKit.ABResolver",
+                    "usr": "s:12ABWrapperKit10ABResolverC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ABWrapperKit10ABResolverC7defaultACvgZ",
+                "mangledName": "$s12ABWrapperKit10ABResolverC7defaultACvgZ",
+                "moduleName": "ABWrapperKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(type:tag:factory:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> τ_0_0",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ABWrapperKit10ABResolverC8register4type3tag7factoryyxm_SSSgxyXAtlF",
+            "mangledName": "$s12ABWrapperKit10ABResolverC8register4type3tag7factoryyxm_SSSgxyXAtlF",
+            "moduleName": "ABWrapperKit",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resolve",
+            "printedName": "resolve(type:tag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ABWrapperKit10ABResolverC7resolve4type3tagxSgxm_SSSgtlF",
+            "mangledName": "$s12ABWrapperKit10ABResolverC7resolve4type3tagxSgxm_SSSgtlF",
+            "moduleName": "ABWrapperKit",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregister",
+            "printedName": "unregister(type:tag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ABWrapperKit10ABResolverC10unregister4type3tagyxm_SSSgtlF",
+            "mangledName": "$s12ABWrapperKit10ABResolverC10unregister4type3tagyxm_SSSgtlF",
+            "moduleName": "ABWrapperKit",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12ABWrapperKit10ABResolverC",
+        "mangledName": "$s12ABWrapperKit10ABResolverC",
+        "moduleName": "ABWrapperKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ABWrapperKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ABUserDefault",
+        "printedName": "ABUserDefault",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(key:defaultValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ABUserDefault",
+                "printedName": "ABWrapperKit.ABUserDefault<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:12ABWrapperKit13ABUserDefaultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12ABWrapperKit13ABUserDefaultV3key12defaultValueACyxGSS_xtcfc",
+            "mangledName": "$s12ABWrapperKit13ABUserDefaultV3key12defaultValueACyxGSS_xtcfc",
+            "moduleName": "ABWrapperKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "wrappedValue",
+            "printedName": "wrappedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ABWrapperKit13ABUserDefaultV12wrappedValuexvp",
+            "mangledName": "$s12ABWrapperKit13ABUserDefaultV12wrappedValuexvp",
+            "moduleName": "ABWrapperKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ABWrapperKit13ABUserDefaultV12wrappedValuexvg",
+                "mangledName": "$s12ABWrapperKit13ABUserDefaultV12wrappedValuexvg",
+                "moduleName": "ABWrapperKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ABWrapperKit13ABUserDefaultV12wrappedValuexvs",
+                "mangledName": "$s12ABWrapperKit13ABUserDefaultV12wrappedValuexvs",
+                "moduleName": "ABWrapperKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ABWrapperKit13ABUserDefaultV12wrappedValuexvM",
+                "mangledName": "$s12ABWrapperKit13ABUserDefaultV12wrappedValuexvM",
+                "moduleName": "ABWrapperKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "projectedValue",
+            "printedName": "projectedValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ABUserDefault",
+                "printedName": "ABWrapperKit.ABUserDefault<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:12ABWrapperKit13ABUserDefaultV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ABWrapperKit13ABUserDefaultV14projectedValueACyxGvp",
+            "mangledName": "$s12ABWrapperKit13ABUserDefaultV14projectedValueACyxGvp",
+            "moduleName": "ABWrapperKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABUserDefault",
+                    "printedName": "ABWrapperKit.ABUserDefault<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:12ABWrapperKit13ABUserDefaultV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ABWrapperKit13ABUserDefaultV14projectedValueACyxGvg",
+                "mangledName": "$s12ABWrapperKit13ABUserDefaultV14projectedValueACyxGvg",
+                "moduleName": "ABWrapperKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "removeObject",
+            "printedName": "removeObject()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ABWrapperKit13ABUserDefaultV12removeObjectyyF",
+            "mangledName": "$s12ABWrapperKit13ABUserDefaultV12removeObjectyyF",
+            "moduleName": "ABWrapperKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12ABWrapperKit13ABUserDefaultV",
+        "mangledName": "$s12ABWrapperKit13ABUserDefaultV",
+        "moduleName": "ABWrapperKit",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
+        "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
+        "declAttributes": [
+          "AccessControl",
+          "PropertyWrapper",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

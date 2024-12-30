@@ -1,0 +1,6 @@
+framework module ABRouterKit {
+  umbrella header "ABRouterKit.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,25 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ABRouterKit
+@_exported import ABRouterKit
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol ABRoute {
+  associatedtype ViewController : UIKit.UIViewController
+  var viewController: Self.ViewController { get }
+}
+@_hasMissingDesignatedInitializers public class ABRouter {
+  public static let shared: ABRouterKit.ABRouter
+  public func configure(with navigationController: UIKit.UINavigationController)
+  public func start(with initialRoute: any ABRouterKit.ABRoute)
+  public func setRoot(to route: any ABRouterKit.ABRoute, duration: Foundation.TimeInterval? = nil, options: UIKit.UIView.AnimationOptions? = nil)
+  public func push(to route: any ABRouterKit.ABRoute)
+  public func pop()
+  public func pop(to route: any ABRouterKit.ABRoute)
+  public func show(sheet route: any ABRouterKit.ABRoute, presentationStyle: UIKit.UIModalPresentationStyle? = nil, transitionStyle: UIKit.UIModalTransitionStyle? = nil)
+  public func dismiss(completion: (() -> Swift.Void)? = nil)
+  @objc deinit
+}

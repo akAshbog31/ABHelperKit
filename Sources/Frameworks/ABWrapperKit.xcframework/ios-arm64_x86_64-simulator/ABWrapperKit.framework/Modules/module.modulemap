@@ -1,0 +1,6 @@
+framework module ABWrapperKit {
+  umbrella header "ABWrapperKit.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,488 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ABRouterKit",
+    "printedName": "ABRouterKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ABRouterKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ABRoute",
+        "printedName": "ABRoute",
+        "children": [
+          {
+            "kind": "AssociatedType",
+            "name": "ViewController",
+            "printedName": "ViewController",
+            "declKind": "AssociatedType",
+            "usr": "s:11ABRouterKit7ABRouteP14ViewControllerQa",
+            "mangledName": "$s11ABRouterKit7ABRouteP14ViewControllerQa",
+            "moduleName": "ABRouterKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "viewController",
+            "printedName": "viewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.ViewController"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ABRouterKit7ABRouteP14viewController04ViewE0Qzvp",
+            "mangledName": "$s11ABRouterKit7ABRouteP14viewController04ViewE0Qzvp",
+            "moduleName": "ABRouterKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.ViewController"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABRouterKit7ABRouteP14viewController04ViewE0Qzvg",
+                "mangledName": "$s11ABRouterKit7ABRouteP14viewController04ViewE0Qzvg",
+                "moduleName": "ABRouterKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : ABRouterKit.ABRoute>",
+                "sugared_genericSig": "<Self where Self : ABRouterKit.ABRoute>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11ABRouterKit7ABRouteP",
+        "mangledName": "$s11ABRouterKit7ABRouteP",
+        "moduleName": "ABRouterKit",
+        "genericSig": "<τ_0_0.ViewController : UIKit.UIViewController>",
+        "sugared_genericSig": "<Self.ViewController : UIKit.UIViewController>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ABRouterKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ABRouter",
+        "printedName": "ABRouter",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ABRouter",
+                "printedName": "ABRouterKit.ABRouter",
+                "usr": "s:11ABRouterKit0A0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11ABRouterKit0A0C6sharedACvpZ",
+            "mangledName": "$s11ABRouterKit0A0C6sharedACvpZ",
+            "moduleName": "ABRouterKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ABRouter",
+                    "printedName": "ABRouterKit.ABRouter",
+                    "usr": "s:11ABRouterKit0A0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11ABRouterKit0A0C6sharedACvgZ",
+                "mangledName": "$s11ABRouterKit0A0C6sharedACvgZ",
+                "moduleName": "ABRouterKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UINavigationController",
+                "printedName": "UIKit.UINavigationController",
+                "usr": "c:objc(cs)UINavigationController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABRouterKit0A0C9configure4withySo22UINavigationControllerC_tF",
+            "mangledName": "$s11ABRouterKit0A0C9configure4withySo22UINavigationControllerC_tF",
+            "moduleName": "ABRouterKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ABRoute",
+                "printedName": "any ABRouterKit.ABRoute",
+                "usr": "s:11ABRouterKit7ABRouteP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABRouterKit0A0C5start4withyAA7ABRoute_p_tF",
+            "mangledName": "$s11ABRouterKit0A0C5start4withyAA7ABRoute_p_tF",
+            "moduleName": "ABRouterKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRoot",
+            "printedName": "setRoot(to:duration:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ABRoute",
+                "printedName": "any ABRouterKit.ABRoute",
+                "usr": "s:11ABRouterKit7ABRouteP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView.AnimationOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimationOptions",
+                    "printedName": "UIKit.UIView.AnimationOptions",
+                    "usr": "c:@E@UIViewAnimationOptions"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABRouterKit0A0C7setRoot2to8duration7optionsyAA7ABRoute_p_SdSgSo22UIViewAnimationOptionsVSgtF",
+            "mangledName": "$s11ABRouterKit0A0C7setRoot2to8duration7optionsyAA7ABRoute_p_SdSgSo22UIViewAnimationOptionsVSgtF",
+            "moduleName": "ABRouterKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "push",
+            "printedName": "push(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ABRoute",
+                "printedName": "any ABRouterKit.ABRoute",
+                "usr": "s:11ABRouterKit7ABRouteP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABRouterKit0A0C4push2toyAA7ABRoute_p_tF",
+            "mangledName": "$s11ABRouterKit0A0C4push2toyAA7ABRoute_p_tF",
+            "moduleName": "ABRouterKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pop",
+            "printedName": "pop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABRouterKit0A0C3popyyF",
+            "mangledName": "$s11ABRouterKit0A0C3popyyF",
+            "moduleName": "ABRouterKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pop",
+            "printedName": "pop(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ABRoute",
+                "printedName": "any ABRouterKit.ABRoute",
+                "usr": "s:11ABRouterKit7ABRouteP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABRouterKit0A0C3pop2toyAA7ABRoute_p_tF",
+            "mangledName": "$s11ABRouterKit0A0C3pop2toyAA7ABRoute_p_tF",
+            "moduleName": "ABRouterKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(sheet:presentationStyle:transitionStyle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ABRoute",
+                "printedName": "any ABRouterKit.ABRoute",
+                "usr": "s:11ABRouterKit7ABRouteP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIModalPresentationStyle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIModalPresentationStyle",
+                    "printedName": "UIKit.UIModalPresentationStyle",
+                    "usr": "c:@E@UIModalPresentationStyle"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIModalTransitionStyle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIModalTransitionStyle",
+                    "printedName": "UIKit.UIModalTransitionStyle",
+                    "usr": "c:@E@UIModalTransitionStyle"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABRouterKit0A0C4show5sheet17presentationStyle010transitionF0yAA7ABRoute_p_So019UIModalPresentationF0VSgSo0i10TransitionF0VSgtF",
+            "mangledName": "$s11ABRouterKit0A0C4show5sheet17presentationStyle010transitionF0yAA7ABRoute_p_So019UIModalPresentationF0VSgSo0i10TransitionF0VSgtF",
+            "moduleName": "ABRouterKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismiss",
+            "printedName": "dismiss(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ABRouterKit0A0C7dismiss10completionyyycSg_tF",
+            "mangledName": "$s11ABRouterKit0A0C7dismiss10completionyyycSg_tF",
+            "moduleName": "ABRouterKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11ABRouterKit0A0C",
+        "mangledName": "$s11ABRouterKit0A0C",
+        "moduleName": "ABRouterKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
