@@ -1,0 +1,6 @@
+framework module ABRouterKitSwiftUI {
+  umbrella header "ABRouterKitSwiftUI.h"
+  export *
+
+  module * { export * }
+}

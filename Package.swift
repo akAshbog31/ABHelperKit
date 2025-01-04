@@ -8,7 +8,14 @@ let package = Package(
     products: [
         .library(
             name: "ABHelperKit",
-            targets: ["ABNetworkKit", "ABRouterKit", "ABWrapperKit", "ABUtilitiesKit"]),
+            targets: [
+                "ABNetworkKit",
+                "ABRouterKit",
+                "ABWrapperKit",
+                "ABUtilitiesKit",
+                "ABRouterKitSwiftUI"
+            ]
+        ),
     ],
     targets: [
         .binaryTarget(
@@ -27,5 +34,9 @@ let package = Package(
             name: "ABUtilitiesKit",
             path: "Sources/Frameworks/ABUtilitiesKit.xcframework"
         ),
+        .binaryTarget(
+            name: "ABRouterKitSwiftUI",
+            path: "Sources/Frameworks/ABRouterKitSwiftUI.xcframework"
+        )
     ]
 )
