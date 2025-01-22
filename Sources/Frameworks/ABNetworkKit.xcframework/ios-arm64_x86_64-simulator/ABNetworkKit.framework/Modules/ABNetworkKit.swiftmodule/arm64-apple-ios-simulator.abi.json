@@ -20,8 +20,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "APIMethod",
-        "printedName": "APIMethod",
+        "name": "ABAPIMethod",
+        "printedName": "ABAPIMethod",
         "children": [
           {
             "kind": "Var",
@@ -31,24 +31,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(ABNetworkKit.APIMethod.Type) -> ABNetworkKit.APIMethod",
+                "printedName": "(ABNetworkKit.ABAPIMethod.Type) -> ABNetworkKit.ABAPIMethod",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "APIMethod",
-                    "printedName": "ABNetworkKit.APIMethod",
-                    "usr": "s:12ABNetworkKit9APIMethodO"
+                    "name": "ABAPIMethod",
+                    "printedName": "ABNetworkKit.ABAPIMethod",
+                    "usr": "s:12ABNetworkKit11ABAPIMethodO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "ABNetworkKit.APIMethod.Type",
+                    "printedName": "ABNetworkKit.ABAPIMethod.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "APIMethod",
-                        "printedName": "ABNetworkKit.APIMethod",
-                        "usr": "s:12ABNetworkKit9APIMethodO"
+                        "name": "ABAPIMethod",
+                        "printedName": "ABNetworkKit.ABAPIMethod",
+                        "usr": "s:12ABNetworkKit11ABAPIMethodO"
                       }
                     ]
                   }
@@ -56,8 +56,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12ABNetworkKit9APIMethodO3getyA2CmF",
-            "mangledName": "$s12ABNetworkKit9APIMethodO3getyA2CmF",
+            "usr": "s:12ABNetworkKit11ABAPIMethodO3getyA2CmF",
+            "mangledName": "$s12ABNetworkKit11ABAPIMethodO3getyA2CmF",
             "moduleName": "ABNetworkKit",
             "declAttributes": [
               "RawDocComment"
@@ -71,24 +71,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(ABNetworkKit.APIMethod.Type) -> ABNetworkKit.APIMethod",
+                "printedName": "(ABNetworkKit.ABAPIMethod.Type) -> ABNetworkKit.ABAPIMethod",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "APIMethod",
-                    "printedName": "ABNetworkKit.APIMethod",
-                    "usr": "s:12ABNetworkKit9APIMethodO"
+                    "name": "ABAPIMethod",
+                    "printedName": "ABNetworkKit.ABAPIMethod",
+                    "usr": "s:12ABNetworkKit11ABAPIMethodO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "ABNetworkKit.APIMethod.Type",
+                    "printedName": "ABNetworkKit.ABAPIMethod.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "APIMethod",
-                        "printedName": "ABNetworkKit.APIMethod",
-                        "usr": "s:12ABNetworkKit9APIMethodO"
+                        "name": "ABAPIMethod",
+                        "printedName": "ABNetworkKit.ABAPIMethod",
+                        "usr": "s:12ABNetworkKit11ABAPIMethodO"
                       }
                     ]
                   }
@@ -96,8 +96,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12ABNetworkKit9APIMethodO4postyA2CmF",
-            "mangledName": "$s12ABNetworkKit9APIMethodO4postyA2CmF",
+            "usr": "s:12ABNetworkKit11ABAPIMethodO4postyA2CmF",
+            "mangledName": "$s12ABNetworkKit11ABAPIMethodO4postyA2CmF",
             "moduleName": "ABNetworkKit",
             "declAttributes": [
               "RawDocComment"
@@ -111,24 +111,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(ABNetworkKit.APIMethod.Type) -> ABNetworkKit.APIMethod",
+                "printedName": "(ABNetworkKit.ABAPIMethod.Type) -> ABNetworkKit.ABAPIMethod",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "APIMethod",
-                    "printedName": "ABNetworkKit.APIMethod",
-                    "usr": "s:12ABNetworkKit9APIMethodO"
+                    "name": "ABAPIMethod",
+                    "printedName": "ABNetworkKit.ABAPIMethod",
+                    "usr": "s:12ABNetworkKit11ABAPIMethodO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "ABNetworkKit.APIMethod.Type",
+                    "printedName": "ABNetworkKit.ABAPIMethod.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "APIMethod",
-                        "printedName": "ABNetworkKit.APIMethod",
-                        "usr": "s:12ABNetworkKit9APIMethodO"
+                        "name": "ABAPIMethod",
+                        "printedName": "ABNetworkKit.ABAPIMethod",
+                        "usr": "s:12ABNetworkKit11ABAPIMethodO"
                       }
                     ]
                   }
@@ -136,8 +136,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12ABNetworkKit9APIMethodO3putyA2CmF",
-            "mangledName": "$s12ABNetworkKit9APIMethodO3putyA2CmF",
+            "usr": "s:12ABNetworkKit11ABAPIMethodO3putyA2CmF",
+            "mangledName": "$s12ABNetworkKit11ABAPIMethodO3putyA2CmF",
             "moduleName": "ABNetworkKit",
             "declAttributes": [
               "RawDocComment"
@@ -151,24 +151,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(ABNetworkKit.APIMethod.Type) -> ABNetworkKit.APIMethod",
+                "printedName": "(ABNetworkKit.ABAPIMethod.Type) -> ABNetworkKit.ABAPIMethod",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "APIMethod",
-                    "printedName": "ABNetworkKit.APIMethod",
-                    "usr": "s:12ABNetworkKit9APIMethodO"
+                    "name": "ABAPIMethod",
+                    "printedName": "ABNetworkKit.ABAPIMethod",
+                    "usr": "s:12ABNetworkKit11ABAPIMethodO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "ABNetworkKit.APIMethod.Type",
+                    "printedName": "ABNetworkKit.ABAPIMethod.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "APIMethod",
-                        "printedName": "ABNetworkKit.APIMethod",
-                        "usr": "s:12ABNetworkKit9APIMethodO"
+                        "name": "ABAPIMethod",
+                        "printedName": "ABNetworkKit.ABAPIMethod",
+                        "usr": "s:12ABNetworkKit11ABAPIMethodO"
                       }
                     ]
                   }
@@ -176,8 +176,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12ABNetworkKit9APIMethodO5patchyA2CmF",
-            "mangledName": "$s12ABNetworkKit9APIMethodO5patchyA2CmF",
+            "usr": "s:12ABNetworkKit11ABAPIMethodO5patchyA2CmF",
+            "mangledName": "$s12ABNetworkKit11ABAPIMethodO5patchyA2CmF",
             "moduleName": "ABNetworkKit",
             "declAttributes": [
               "RawDocComment"
@@ -191,24 +191,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(ABNetworkKit.APIMethod.Type) -> ABNetworkKit.APIMethod",
+                "printedName": "(ABNetworkKit.ABAPIMethod.Type) -> ABNetworkKit.ABAPIMethod",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "APIMethod",
-                    "printedName": "ABNetworkKit.APIMethod",
-                    "usr": "s:12ABNetworkKit9APIMethodO"
+                    "name": "ABAPIMethod",
+                    "printedName": "ABNetworkKit.ABAPIMethod",
+                    "usr": "s:12ABNetworkKit11ABAPIMethodO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "ABNetworkKit.APIMethod.Type",
+                    "printedName": "ABNetworkKit.ABAPIMethod.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "APIMethod",
-                        "printedName": "ABNetworkKit.APIMethod",
-                        "usr": "s:12ABNetworkKit9APIMethodO"
+                        "name": "ABAPIMethod",
+                        "printedName": "ABNetworkKit.ABAPIMethod",
+                        "usr": "s:12ABNetworkKit11ABAPIMethodO"
                       }
                     ]
                   }
@@ -216,8 +216,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12ABNetworkKit9APIMethodO6deleteyA2CmF",
-            "mangledName": "$s12ABNetworkKit9APIMethodO6deleteyA2CmF",
+            "usr": "s:12ABNetworkKit11ABAPIMethodO6deleteyA2CmF",
+            "mangledName": "$s12ABNetworkKit11ABAPIMethodO6deleteyA2CmF",
             "moduleName": "ABNetworkKit",
             "declAttributes": [
               "RawDocComment"
@@ -231,13 +231,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "ABNetworkKit.APIMethod?",
+                "printedName": "ABNetworkKit.ABAPIMethod?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "APIMethod",
-                    "printedName": "ABNetworkKit.APIMethod",
-                    "usr": "s:12ABNetworkKit9APIMethodO"
+                    "name": "ABAPIMethod",
+                    "printedName": "ABNetworkKit.ABAPIMethod",
+                    "usr": "s:12ABNetworkKit11ABAPIMethodO"
                   }
                 ],
                 "usr": "s:Sq"
@@ -250,8 +250,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12ABNetworkKit9APIMethodO8rawValueACSgSS_tcfc",
-            "mangledName": "$s12ABNetworkKit9APIMethodO8rawValueACSgSS_tcfc",
+            "usr": "s:12ABNetworkKit11ABAPIMethodO8rawValueACSgSS_tcfc",
+            "mangledName": "$s12ABNetworkKit11ABAPIMethodO8rawValueACSgSS_tcfc",
             "moduleName": "ABNetworkKit",
             "implicit": true,
             "init_kind": "Designated"
@@ -269,8 +269,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12ABNetworkKit9APIMethodO8rawValueSSvp",
-            "mangledName": "$s12ABNetworkKit9APIMethodO8rawValueSSvp",
+            "usr": "s:12ABNetworkKit11ABAPIMethodO8rawValueSSvp",
+            "mangledName": "$s12ABNetworkKit11ABAPIMethodO8rawValueSSvp",
             "moduleName": "ABNetworkKit",
             "implicit": true,
             "accessors": [
@@ -287,8 +287,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12ABNetworkKit9APIMethodO8rawValueSSvg",
-                "mangledName": "$s12ABNetworkKit9APIMethodO8rawValueSSvg",
+                "usr": "s:12ABNetworkKit11ABAPIMethodO8rawValueSSvg",
+                "mangledName": "$s12ABNetworkKit11ABAPIMethodO8rawValueSSvg",
                 "moduleName": "ABNetworkKit",
                 "implicit": true,
                 "accessorKind": "get"
@@ -297,8 +297,8 @@
           }
         ],
         "declKind": "Enum",
-        "usr": "s:12ABNetworkKit9APIMethodO",
-        "mangledName": "$s12ABNetworkKit9APIMethodO",
+        "usr": "s:12ABNetworkKit11ABAPIMethodO",
+        "mangledName": "$s12ABNetworkKit11ABAPIMethodO",
         "moduleName": "ABNetworkKit",
         "declAttributes": [
           "AccessControl",
@@ -360,8 +360,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "Request",
-        "printedName": "Request",
+        "name": "ABRequest",
+        "printedName": "ABRequest",
         "children": [
           {
             "kind": "Var",
@@ -371,18 +371,18 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(ABNetworkKit.Request.Type) -> ([Swift.String : Any]?) -> ABNetworkKit.Request",
+                "printedName": "(ABNetworkKit.ABRequest.Type) -> ([Swift.String : Any]?) -> ABNetworkKit.ABRequest",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "([Swift.String : Any]?) -> ABNetworkKit.Request",
+                    "printedName": "([Swift.String : Any]?) -> ABNetworkKit.ABRequest",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Request",
-                        "printedName": "ABNetworkKit.Request",
-                        "usr": "s:12ABNetworkKit7RequestO"
+                        "name": "ABRequest",
+                        "printedName": "ABNetworkKit.ABRequest",
+                        "usr": "s:12ABNetworkKit9ABRequestO"
                       },
                       {
                         "kind": "TypeNominal",
@@ -416,13 +416,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "ABNetworkKit.Request.Type",
+                    "printedName": "ABNetworkKit.ABRequest.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Request",
-                        "printedName": "ABNetworkKit.Request",
-                        "usr": "s:12ABNetworkKit7RequestO"
+                        "name": "ABRequest",
+                        "printedName": "ABNetworkKit.ABRequest",
+                        "usr": "s:12ABNetworkKit9ABRequestO"
                       }
                     ]
                   }
@@ -430,8 +430,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12ABNetworkKit7RequestO12jsonEncodingyACSDySSypGSgcACmF",
-            "mangledName": "$s12ABNetworkKit7RequestO12jsonEncodingyACSDySSypGSgcACmF",
+            "usr": "s:12ABNetworkKit9ABRequestO12jsonEncodingyACSDySSypGSgcACmF",
+            "mangledName": "$s12ABNetworkKit9ABRequestO12jsonEncodingyACSDySSypGSgcACmF",
             "moduleName": "ABNetworkKit",
             "declAttributes": [
               "RawDocComment"
@@ -445,18 +445,18 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(ABNetworkKit.Request.Type) -> ([Swift.String : Any]?) -> ABNetworkKit.Request",
+                "printedName": "(ABNetworkKit.ABRequest.Type) -> ([Swift.String : Any]?) -> ABNetworkKit.ABRequest",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "([Swift.String : Any]?) -> ABNetworkKit.Request",
+                    "printedName": "([Swift.String : Any]?) -> ABNetworkKit.ABRequest",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Request",
-                        "printedName": "ABNetworkKit.Request",
-                        "usr": "s:12ABNetworkKit7RequestO"
+                        "name": "ABRequest",
+                        "printedName": "ABNetworkKit.ABRequest",
+                        "usr": "s:12ABNetworkKit9ABRequestO"
                       },
                       {
                         "kind": "TypeNominal",
@@ -490,13 +490,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "ABNetworkKit.Request.Type",
+                    "printedName": "ABNetworkKit.ABRequest.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Request",
-                        "printedName": "ABNetworkKit.Request",
-                        "usr": "s:12ABNetworkKit7RequestO"
+                        "name": "ABRequest",
+                        "printedName": "ABNetworkKit.ABRequest",
+                        "usr": "s:12ABNetworkKit9ABRequestO"
                       }
                     ]
                   }
@@ -504,8 +504,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12ABNetworkKit7RequestO11urlEncodingyACSDySSypGSgcACmF",
-            "mangledName": "$s12ABNetworkKit7RequestO11urlEncodingyACSDySSypGSgcACmF",
+            "usr": "s:12ABNetworkKit9ABRequestO11urlEncodingyACSDySSypGSgcACmF",
+            "mangledName": "$s12ABNetworkKit9ABRequestO11urlEncodingyACSDySSypGSgcACmF",
             "moduleName": "ABNetworkKit",
             "declAttributes": [
               "RawDocComment"
@@ -519,18 +519,18 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(ABNetworkKit.Request.Type) -> ([Swift.String : Any]?) -> ABNetworkKit.Request",
+                "printedName": "(ABNetworkKit.ABRequest.Type) -> ([Swift.String : Any]?) -> ABNetworkKit.ABRequest",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "([Swift.String : Any]?) -> ABNetworkKit.Request",
+                    "printedName": "([Swift.String : Any]?) -> ABNetworkKit.ABRequest",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Request",
-                        "printedName": "ABNetworkKit.Request",
-                        "usr": "s:12ABNetworkKit7RequestO"
+                        "name": "ABRequest",
+                        "printedName": "ABNetworkKit.ABRequest",
+                        "usr": "s:12ABNetworkKit9ABRequestO"
                       },
                       {
                         "kind": "TypeNominal",
@@ -564,13 +564,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "ABNetworkKit.Request.Type",
+                    "printedName": "ABNetworkKit.ABRequest.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Request",
-                        "printedName": "ABNetworkKit.Request",
-                        "usr": "s:12ABNetworkKit7RequestO"
+                        "name": "ABRequest",
+                        "printedName": "ABNetworkKit.ABRequest",
+                        "usr": "s:12ABNetworkKit9ABRequestO"
                       }
                     ]
                   }
@@ -578,8 +578,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12ABNetworkKit7RequestO11queryStringyACSDySSypGSgcACmF",
-            "mangledName": "$s12ABNetworkKit7RequestO11queryStringyACSDySSypGSgcACmF",
+            "usr": "s:12ABNetworkKit9ABRequestO11queryStringyACSDySSypGSgcACmF",
+            "mangledName": "$s12ABNetworkKit9ABRequestO11queryStringyACSDySSypGSgcACmF",
             "moduleName": "ABNetworkKit",
             "declAttributes": [
               "RawDocComment"
@@ -593,37 +593,37 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(ABNetworkKit.Request.Type) -> (ABNetworkKit.MultipartRequest) -> ABNetworkKit.Request",
+                "printedName": "(ABNetworkKit.ABRequest.Type) -> (ABNetworkKit.ABMultipartRequest) -> ABNetworkKit.ABRequest",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(ABNetworkKit.MultipartRequest) -> ABNetworkKit.Request",
+                    "printedName": "(ABNetworkKit.ABMultipartRequest) -> ABNetworkKit.ABRequest",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Request",
-                        "printedName": "ABNetworkKit.Request",
-                        "usr": "s:12ABNetworkKit7RequestO"
+                        "name": "ABRequest",
+                        "printedName": "ABNetworkKit.ABRequest",
+                        "usr": "s:12ABNetworkKit9ABRequestO"
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "MultipartRequest",
-                        "printedName": "ABNetworkKit.MultipartRequest",
-                        "usr": "s:12ABNetworkKit16MultipartRequestV"
+                        "name": "ABMultipartRequest",
+                        "printedName": "ABNetworkKit.ABMultipartRequest",
+                        "usr": "s:12ABNetworkKit18ABMultipartRequestV"
                       }
                     ]
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "ABNetworkKit.Request.Type",
+                    "printedName": "ABNetworkKit.ABRequest.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Request",
-                        "printedName": "ABNetworkKit.Request",
-                        "usr": "s:12ABNetworkKit7RequestO"
+                        "name": "ABRequest",
+                        "printedName": "ABNetworkKit.ABRequest",
+                        "usr": "s:12ABNetworkKit9ABRequestO"
                       }
                     ]
                   }
@@ -631,8 +631,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12ABNetworkKit7RequestO9multiPartyAcA09MultipartC0VcACmF",
-            "mangledName": "$s12ABNetworkKit7RequestO9multiPartyAcA09MultipartC0VcACmF",
+            "usr": "s:12ABNetworkKit9ABRequestO9multiPartyAcA18ABMultipartRequestVcACmF",
+            "mangledName": "$s12ABNetworkKit9ABRequestO9multiPartyAcA18ABMultipartRequestVcACmF",
             "moduleName": "ABNetworkKit",
             "declAttributes": [
               "RawDocComment"
@@ -646,24 +646,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(ABNetworkKit.Request.Type) -> ABNetworkKit.Request",
+                "printedName": "(ABNetworkKit.ABRequest.Type) -> ABNetworkKit.ABRequest",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Request",
-                    "printedName": "ABNetworkKit.Request",
-                    "usr": "s:12ABNetworkKit7RequestO"
+                    "name": "ABRequest",
+                    "printedName": "ABNetworkKit.ABRequest",
+                    "usr": "s:12ABNetworkKit9ABRequestO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "ABNetworkKit.Request.Type",
+                    "printedName": "ABNetworkKit.ABRequest.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "Request",
-                        "printedName": "ABNetworkKit.Request",
-                        "usr": "s:12ABNetworkKit7RequestO"
+                        "name": "ABRequest",
+                        "printedName": "ABNetworkKit.ABRequest",
+                        "usr": "s:12ABNetworkKit9ABRequestO"
                       }
                     ]
                   }
@@ -671,8 +671,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12ABNetworkKit7RequestO12requestPlainyA2CmF",
-            "mangledName": "$s12ABNetworkKit7RequestO12requestPlainyA2CmF",
+            "usr": "s:12ABNetworkKit9ABRequestO12requestPlainyA2CmF",
+            "mangledName": "$s12ABNetworkKit9ABRequestO12requestPlainyA2CmF",
             "moduleName": "ABNetworkKit",
             "declAttributes": [
               "RawDocComment"
@@ -680,8 +680,8 @@
           }
         ],
         "declKind": "Enum",
-        "usr": "s:12ABNetworkKit7RequestO",
-        "mangledName": "$s12ABNetworkKit7RequestO",
+        "usr": "s:12ABNetworkKit9ABRequestO",
+        "mangledName": "$s12ABNetworkKit9ABRequestO",
         "moduleName": "ABNetworkKit",
         "declAttributes": [
           "AccessControl",
@@ -741,8 +741,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "APIProtocol",
-        "printedName": "APIProtocol",
+        "name": "ABAPIProtocol",
+        "printedName": "ABAPIProtocol",
         "children": [
           {
             "kind": "Var",
@@ -751,14 +751,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "APIMethod",
-                "printedName": "ABNetworkKit.APIMethod",
-                "usr": "s:12ABNetworkKit9APIMethodO"
+                "name": "ABAPIMethod",
+                "printedName": "ABNetworkKit.ABAPIMethod",
+                "usr": "s:12ABNetworkKit11ABAPIMethodO"
               }
             ],
             "declKind": "Var",
-            "usr": "s:12ABNetworkKit11APIProtocolP6methodAA9APIMethodOvp",
-            "mangledName": "$s12ABNetworkKit11APIProtocolP6methodAA9APIMethodOvp",
+            "usr": "s:12ABNetworkKit13ABAPIProtocolP6methodAA11ABAPIMethodOvp",
+            "mangledName": "$s12ABNetworkKit13ABAPIProtocolP6methodAA11ABAPIMethodOvp",
             "moduleName": "ABNetworkKit",
             "protocolReq": true,
             "accessors": [
@@ -769,17 +769,17 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "APIMethod",
-                    "printedName": "ABNetworkKit.APIMethod",
-                    "usr": "s:12ABNetworkKit9APIMethodO"
+                    "name": "ABAPIMethod",
+                    "printedName": "ABNetworkKit.ABAPIMethod",
+                    "usr": "s:12ABNetworkKit11ABAPIMethodO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12ABNetworkKit11APIProtocolP6methodAA9APIMethodOvg",
-                "mangledName": "$s12ABNetworkKit11APIProtocolP6methodAA9APIMethodOvg",
+                "usr": "s:12ABNetworkKit13ABAPIProtocolP6methodAA11ABAPIMethodOvg",
+                "mangledName": "$s12ABNetworkKit13ABAPIProtocolP6methodAA11ABAPIMethodOvg",
                 "moduleName": "ABNetworkKit",
-                "genericSig": "<τ_0_0 where τ_0_0 : ABNetworkKit.APIProtocol>",
-                "sugared_genericSig": "<Self where Self : ABNetworkKit.APIProtocol>",
+                "genericSig": "<τ_0_0 where τ_0_0 : ABNetworkKit.ABAPIProtocol>",
+                "sugared_genericSig": "<Self where Self : ABNetworkKit.ABAPIProtocol>",
                 "protocolReq": true,
                 "reqNewWitnessTableEntry": true,
                 "accessorKind": "get"
@@ -799,8 +799,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12ABNetworkKit11APIProtocolP7baseURLSSvp",
-            "mangledName": "$s12ABNetworkKit11APIProtocolP7baseURLSSvp",
+            "usr": "s:12ABNetworkKit13ABAPIProtocolP7baseURLSSvp",
+            "mangledName": "$s12ABNetworkKit13ABAPIProtocolP7baseURLSSvp",
             "moduleName": "ABNetworkKit",
             "protocolReq": true,
             "accessors": [
@@ -817,11 +817,11 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12ABNetworkKit11APIProtocolP7baseURLSSvg",
-                "mangledName": "$s12ABNetworkKit11APIProtocolP7baseURLSSvg",
+                "usr": "s:12ABNetworkKit13ABAPIProtocolP7baseURLSSvg",
+                "mangledName": "$s12ABNetworkKit13ABAPIProtocolP7baseURLSSvg",
                 "moduleName": "ABNetworkKit",
-                "genericSig": "<τ_0_0 where τ_0_0 : ABNetworkKit.APIProtocol>",
-                "sugared_genericSig": "<Self where Self : ABNetworkKit.APIProtocol>",
+                "genericSig": "<τ_0_0 where τ_0_0 : ABNetworkKit.ABAPIProtocol>",
+                "sugared_genericSig": "<Self where Self : ABNetworkKit.ABAPIProtocol>",
                 "protocolReq": true,
                 "reqNewWitnessTableEntry": true,
                 "accessorKind": "get"
@@ -841,8 +841,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12ABNetworkKit11APIProtocolP4pathSSvp",
-            "mangledName": "$s12ABNetworkKit11APIProtocolP4pathSSvp",
+            "usr": "s:12ABNetworkKit13ABAPIProtocolP4pathSSvp",
+            "mangledName": "$s12ABNetworkKit13ABAPIProtocolP4pathSSvp",
             "moduleName": "ABNetworkKit",
             "protocolReq": true,
             "accessors": [
@@ -859,11 +859,11 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12ABNetworkKit11APIProtocolP4pathSSvg",
-                "mangledName": "$s12ABNetworkKit11APIProtocolP4pathSSvg",
+                "usr": "s:12ABNetworkKit13ABAPIProtocolP4pathSSvg",
+                "mangledName": "$s12ABNetworkKit13ABAPIProtocolP4pathSSvg",
                 "moduleName": "ABNetworkKit",
-                "genericSig": "<τ_0_0 where τ_0_0 : ABNetworkKit.APIProtocol>",
-                "sugared_genericSig": "<Self where Self : ABNetworkKit.APIProtocol>",
+                "genericSig": "<τ_0_0 where τ_0_0 : ABNetworkKit.ABAPIProtocol>",
+                "sugared_genericSig": "<Self where Self : ABNetworkKit.ABAPIProtocol>",
                 "protocolReq": true,
                 "reqNewWitnessTableEntry": true,
                 "accessorKind": "get"
@@ -877,14 +877,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Request",
-                "printedName": "ABNetworkKit.Request",
-                "usr": "s:12ABNetworkKit7RequestO"
+                "name": "ABRequest",
+                "printedName": "ABNetworkKit.ABRequest",
+                "usr": "s:12ABNetworkKit9ABRequestO"
               }
             ],
             "declKind": "Var",
-            "usr": "s:12ABNetworkKit11APIProtocolP4taskAA7RequestOvp",
-            "mangledName": "$s12ABNetworkKit11APIProtocolP4taskAA7RequestOvp",
+            "usr": "s:12ABNetworkKit13ABAPIProtocolP4taskAA9ABRequestOvp",
+            "mangledName": "$s12ABNetworkKit13ABAPIProtocolP4taskAA9ABRequestOvp",
             "moduleName": "ABNetworkKit",
             "protocolReq": true,
             "accessors": [
@@ -895,17 +895,17 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Request",
-                    "printedName": "ABNetworkKit.Request",
-                    "usr": "s:12ABNetworkKit7RequestO"
+                    "name": "ABRequest",
+                    "printedName": "ABNetworkKit.ABRequest",
+                    "usr": "s:12ABNetworkKit9ABRequestO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12ABNetworkKit11APIProtocolP4taskAA7RequestOvg",
-                "mangledName": "$s12ABNetworkKit11APIProtocolP4taskAA7RequestOvg",
+                "usr": "s:12ABNetworkKit13ABAPIProtocolP4taskAA9ABRequestOvg",
+                "mangledName": "$s12ABNetworkKit13ABAPIProtocolP4taskAA9ABRequestOvg",
                 "moduleName": "ABNetworkKit",
-                "genericSig": "<τ_0_0 where τ_0_0 : ABNetworkKit.APIProtocol>",
-                "sugared_genericSig": "<Self where Self : ABNetworkKit.APIProtocol>",
+                "genericSig": "<τ_0_0 where τ_0_0 : ABNetworkKit.ABAPIProtocol>",
+                "sugared_genericSig": "<Self where Self : ABNetworkKit.ABAPIProtocol>",
                 "protocolReq": true,
                 "reqNewWitnessTableEntry": true,
                 "accessorKind": "get"
@@ -939,8 +939,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12ABNetworkKit11APIProtocolP6headerSDyS2SGvp",
-            "mangledName": "$s12ABNetworkKit11APIProtocolP6headerSDyS2SGvp",
+            "usr": "s:12ABNetworkKit13ABAPIProtocolP6headerSDyS2SGvp",
+            "mangledName": "$s12ABNetworkKit13ABAPIProtocolP6headerSDyS2SGvp",
             "moduleName": "ABNetworkKit",
             "protocolReq": true,
             "accessors": [
@@ -971,11 +971,11 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12ABNetworkKit11APIProtocolP6headerSDyS2SGvg",
-                "mangledName": "$s12ABNetworkKit11APIProtocolP6headerSDyS2SGvg",
+                "usr": "s:12ABNetworkKit13ABAPIProtocolP6headerSDyS2SGvg",
+                "mangledName": "$s12ABNetworkKit13ABAPIProtocolP6headerSDyS2SGvg",
                 "moduleName": "ABNetworkKit",
-                "genericSig": "<τ_0_0 where τ_0_0 : ABNetworkKit.APIProtocol>",
-                "sugared_genericSig": "<Self where Self : ABNetworkKit.APIProtocol>",
+                "genericSig": "<τ_0_0 where τ_0_0 : ABNetworkKit.ABAPIProtocol>",
+                "sugared_genericSig": "<Self where Self : ABNetworkKit.ABAPIProtocol>",
                 "protocolReq": true,
                 "reqNewWitnessTableEntry": true,
                 "accessorKind": "get"
@@ -984,8 +984,8 @@
           }
         ],
         "declKind": "Protocol",
-        "usr": "s:12ABNetworkKit11APIProtocolP",
-        "mangledName": "$s12ABNetworkKit11APIProtocolP",
+        "usr": "s:12ABNetworkKit13ABAPIProtocolP",
+        "mangledName": "$s12ABNetworkKit13ABAPIProtocolP",
         "moduleName": "ABNetworkKit",
         "declAttributes": [
           "AccessControl",
@@ -1017,8 +1017,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "APIService",
-        "printedName": "APIService",
+        "name": "ABAPIService",
+        "printedName": "ABAPIService",
         "children": [
           {
             "kind": "Function",
@@ -1033,14 +1033,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "APIProtocol",
-                "printedName": "any ABNetworkKit.APIProtocol",
-                "usr": "s:12ABNetworkKit11APIProtocolP"
+                "name": "ABAPIProtocol",
+                "printedName": "any ABNetworkKit.ABAPIProtocol",
+                "usr": "s:12ABNetworkKit13ABAPIProtocolP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12ABNetworkKit10APIServiceO7requesty10Foundation4DataVAA11APIProtocol_pYaKFZ",
-            "mangledName": "$s12ABNetworkKit10APIServiceO7requesty10Foundation4DataVAA11APIProtocol_pYaKFZ",
+            "usr": "s:12ABNetworkKit12ABAPIServiceO7requesty10Foundation4DataVAA13ABAPIProtocol_pYaKFZ",
+            "mangledName": "$s12ABNetworkKit12ABAPIServiceO7requesty10Foundation4DataVAA13ABAPIProtocol_pYaKFZ",
             "moduleName": "ABNetworkKit",
             "static": true,
             "declAttributes": [
@@ -1062,14 +1062,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "APIProtocol",
-                "printedName": "any ABNetworkKit.APIProtocol",
-                "usr": "s:12ABNetworkKit11APIProtocolP"
+                "name": "ABAPIProtocol",
+                "printedName": "any ABNetworkKit.ABAPIProtocol",
+                "usr": "s:12ABNetworkKit13ABAPIProtocolP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12ABNetworkKit10APIServiceO7requestyxAA11APIProtocol_pYaKSeRzSERzlFZ",
-            "mangledName": "$s12ABNetworkKit10APIServiceO7requestyxAA11APIProtocol_pYaKSeRzSERzlFZ",
+            "usr": "s:12ABNetworkKit12ABAPIServiceO7requestyxAA13ABAPIProtocol_pYaKSeRzSERzlFZ",
+            "mangledName": "$s12ABNetworkKit12ABAPIServiceO7requestyxAA13ABAPIProtocol_pYaKSeRzSERzlFZ",
             "moduleName": "ABNetworkKit",
             "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable>",
             "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable>",
@@ -1107,14 +1107,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "APIProtocol",
-                "printedName": "any ABNetworkKit.APIProtocol",
-                "usr": "s:12ABNetworkKit11APIProtocolP"
+                "name": "ABAPIProtocol",
+                "printedName": "any ABNetworkKit.ABAPIProtocol",
+                "usr": "s:12ABNetworkKit13ABAPIProtocolP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12ABNetworkKit10APIServiceO7requestySDySSypGAA11APIProtocol_pYaKFZ",
-            "mangledName": "$s12ABNetworkKit10APIServiceO7requestySDySSypGAA11APIProtocol_pYaKFZ",
+            "usr": "s:12ABNetworkKit12ABAPIServiceO7requestySDySSypGAA13ABAPIProtocol_pYaKFZ",
+            "mangledName": "$s12ABNetworkKit12ABAPIServiceO7requestySDySSypGAA13ABAPIProtocol_pYaKFZ",
             "moduleName": "ABNetworkKit",
             "static": true,
             "declAttributes": [
@@ -1126,8 +1126,8 @@
           }
         ],
         "declKind": "Enum",
-        "usr": "s:12ABNetworkKit10APIServiceO",
-        "mangledName": "$s12ABNetworkKit10APIServiceO",
+        "usr": "s:12ABNetworkKit12ABAPIServiceO",
+        "mangledName": "$s12ABNetworkKit12ABAPIServiceO",
         "moduleName": "ABNetworkKit",
         "declAttributes": [
           "AccessControl"
@@ -1158,8 +1158,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "MultipartRequest",
-        "printedName": "MultipartRequest",
+        "name": "ABMultipartRequest",
+        "printedName": "ABMultipartRequest",
         "children": [
           {
             "kind": "Var",
@@ -1174,8 +1174,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12ABNetworkKit16MultipartRequestV8boundarySSvp",
-            "mangledName": "$s12ABNetworkKit16MultipartRequestV8boundarySSvp",
+            "usr": "s:12ABNetworkKit18ABMultipartRequestV8boundarySSvp",
+            "mangledName": "$s12ABNetworkKit18ABMultipartRequestV8boundarySSvp",
             "moduleName": "ABNetworkKit",
             "declAttributes": [
               "HasStorage",
@@ -1198,8 +1198,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12ABNetworkKit16MultipartRequestV8boundarySSvg",
-                "mangledName": "$s12ABNetworkKit16MultipartRequestV8boundarySSvg",
+                "usr": "s:12ABNetworkKit18ABMultipartRequestV8boundarySSvg",
+                "mangledName": "$s12ABNetworkKit18ABMultipartRequestV8boundarySSvg",
                 "moduleName": "ABNetworkKit",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1213,9 +1213,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "MultipartRequest",
-                "printedName": "ABNetworkKit.MultipartRequest",
-                "usr": "s:12ABNetworkKit16MultipartRequestV"
+                "name": "ABMultipartRequest",
+                "printedName": "ABNetworkKit.ABMultipartRequest",
+                "usr": "s:12ABNetworkKit18ABMultipartRequestV"
               },
               {
                 "kind": "TypeNominal",
@@ -1226,8 +1226,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12ABNetworkKit16MultipartRequestV8boundaryACSS_tcfc",
-            "mangledName": "$s12ABNetworkKit16MultipartRequestV8boundaryACSS_tcfc",
+            "usr": "s:12ABNetworkKit18ABMultipartRequestV8boundaryACSS_tcfc",
+            "mangledName": "$s12ABNetworkKit18ABMultipartRequestV8boundaryACSS_tcfc",
             "moduleName": "ABNetworkKit",
             "declAttributes": [
               "AccessControl",
@@ -1259,8 +1259,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12ABNetworkKit16MultipartRequestV3add3key5valueySS_SStF",
-            "mangledName": "$s12ABNetworkKit16MultipartRequestV3add3key5valueySS_SStF",
+            "usr": "s:12ABNetworkKit18ABMultipartRequestV3add3key5valueySS_SStF",
+            "mangledName": "$s12ABNetworkKit18ABMultipartRequestV3add3key5valueySS_SStF",
             "moduleName": "ABNetworkKit",
             "declAttributes": [
               "Mutating",
@@ -1305,8 +1305,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12ABNetworkKit16MultipartRequestV3add3key8fileName0G8MimeType0G4DataySS_S2S10Foundation0K0VtF",
-            "mangledName": "$s12ABNetworkKit16MultipartRequestV3add3key8fileName0G8MimeType0G4DataySS_S2S10Foundation0K0VtF",
+            "usr": "s:12ABNetworkKit18ABMultipartRequestV3add3key8fileName0G8MimeType0G4DataySS_S2S10Foundation0K0VtF",
+            "mangledName": "$s12ABNetworkKit18ABMultipartRequestV3add3key8fileName0G8MimeType0G4DataySS_S2S10Foundation0K0VtF",
             "moduleName": "ABNetworkKit",
             "declAttributes": [
               "Mutating",
@@ -1328,8 +1328,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12ABNetworkKit16MultipartRequestV25httpContentTypeHeadeValueSSvp",
-            "mangledName": "$s12ABNetworkKit16MultipartRequestV25httpContentTypeHeadeValueSSvp",
+            "usr": "s:12ABNetworkKit18ABMultipartRequestV25httpContentTypeHeadeValueSSvp",
+            "mangledName": "$s12ABNetworkKit18ABMultipartRequestV25httpContentTypeHeadeValueSSvp",
             "moduleName": "ABNetworkKit",
             "declAttributes": [
               "AccessControl",
@@ -1349,8 +1349,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12ABNetworkKit16MultipartRequestV25httpContentTypeHeadeValueSSvg",
-                "mangledName": "$s12ABNetworkKit16MultipartRequestV25httpContentTypeHeadeValueSSvg",
+                "usr": "s:12ABNetworkKit18ABMultipartRequestV25httpContentTypeHeadeValueSSvg",
+                "mangledName": "$s12ABNetworkKit18ABMultipartRequestV25httpContentTypeHeadeValueSSvg",
                 "moduleName": "ABNetworkKit",
                 "accessorKind": "get"
               }
@@ -1369,8 +1369,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12ABNetworkKit16MultipartRequestV8httpBody10Foundation4DataVvp",
-            "mangledName": "$s12ABNetworkKit16MultipartRequestV8httpBody10Foundation4DataVvp",
+            "usr": "s:12ABNetworkKit18ABMultipartRequestV8httpBody10Foundation4DataVvp",
+            "mangledName": "$s12ABNetworkKit18ABMultipartRequestV8httpBody10Foundation4DataVvp",
             "moduleName": "ABNetworkKit",
             "declAttributes": [
               "AccessControl",
@@ -1390,8 +1390,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12ABNetworkKit16MultipartRequestV8httpBody10Foundation4DataVvg",
-                "mangledName": "$s12ABNetworkKit16MultipartRequestV8httpBody10Foundation4DataVvg",
+                "usr": "s:12ABNetworkKit18ABMultipartRequestV8httpBody10Foundation4DataVvg",
+                "mangledName": "$s12ABNetworkKit18ABMultipartRequestV8httpBody10Foundation4DataVvg",
                 "moduleName": "ABNetworkKit",
                 "accessorKind": "get"
               }
@@ -1399,8 +1399,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:12ABNetworkKit16MultipartRequestV",
-        "mangledName": "$s12ABNetworkKit16MultipartRequestV",
+        "usr": "s:12ABNetworkKit18ABMultipartRequestV",
+        "mangledName": "$s12ABNetworkKit18ABMultipartRequestV",
         "moduleName": "ABNetworkKit",
         "declAttributes": [
           "AccessControl",
@@ -2641,9 +2641,9 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABNetworkKit\/ABNetworkKit\/Network\/Others\/MultipartRequest.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABNetworkKit\/ABNetworkKit\/ABNetworkKit\/Network\/Others\/ABMultipartRequest.swift",
       "kind": "StringLiteral",
-      "offset": 796,
+      "offset": 798,
       "length": 6,
       "value": "\"\r\n\""
     }

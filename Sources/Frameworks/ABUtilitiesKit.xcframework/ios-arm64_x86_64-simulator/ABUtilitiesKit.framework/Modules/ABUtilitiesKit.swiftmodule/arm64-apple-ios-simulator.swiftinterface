@@ -257,6 +257,16 @@ public enum ABHapticFeedback {
   case impact(style: UIKit.UIImpactFeedbackGenerator.FeedbackStyle)
   case notification(type: UIKit.UINotificationFeedbackGenerator.FeedbackType)
 }
+public struct HorizontalLine : SwiftUICore.Shape {
+  nonisolated public func path(in rect: CoreFoundation.CGRect) -> SwiftUICore.Path
+  public typealias AnimatableData = SwiftUICore.EmptyAnimatableData
+  public typealias Body = SwiftUICore._ShapeView<ABUtilitiesKit.HorizontalLine, SwiftUICore.ForegroundStyle>
+}
+public struct VericalLine : SwiftUICore.Shape {
+  nonisolated public func path(in rect: CoreFoundation.CGRect) -> SwiftUICore.Path
+  public typealias AnimatableData = SwiftUICore.EmptyAnimatableData
+  public typealias Body = SwiftUICore._ShapeView<ABUtilitiesKit.VericalLine, SwiftUICore.ForegroundStyle>
+}
 extension ABUtilitiesKit.DateFormatType : Swift.Equatable {}
 extension ABUtilitiesKit.DateFormatType : Swift.Hashable {}
 extension ABUtilitiesKit.DateFormatType : Swift.RawRepresentable {}

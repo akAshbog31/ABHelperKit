@@ -2554,6 +2554,290 @@
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
+        "moduleName": "ABUtilitiesKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HorizontalLine",
+        "printedName": "HorizontalLine",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "path",
+            "printedName": "path(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Path",
+                "printedName": "SwiftUI.Path",
+                "usr": "s:7SwiftUI4PathV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ABUtilitiesKit14HorizontalLineV4path2in7SwiftUI4PathVSo6CGRectV_tF",
+            "mangledName": "$s14ABUtilitiesKit14HorizontalLineV4path2in7SwiftUI4PathVSo6CGRectV_tF",
+            "moduleName": "ABUtilitiesKit",
+            "declAttributes": [
+              "Nonisolated",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14ABUtilitiesKit14HorizontalLineV",
+        "mangledName": "$s14ABUtilitiesKit14HorizontalLineV",
+        "moduleName": "ABUtilitiesKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Shape",
+            "printedName": "Shape",
+            "usr": "s:7SwiftUI5ShapeP",
+            "mangledName": "$s7SwiftUI5ShapeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Animatable",
+            "printedName": "Animatable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AnimatableData",
+                "printedName": "AnimatableData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EmptyAnimatableData",
+                    "printedName": "SwiftUI.EmptyAnimatableData",
+                    "usr": "s:7SwiftUI19EmptyAnimatableDataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10AnimatableP",
+            "mangledName": "$s7SwiftUI10AnimatableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ShapeView",
+                    "printedName": "SwiftUI._ShapeView<ABUtilitiesKit.HorizontalLine, SwiftUI.ForegroundStyle>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HorizontalLine",
+                        "printedName": "ABUtilitiesKit.HorizontalLine",
+                        "usr": "s:14ABUtilitiesKit14HorizontalLineV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ForegroundStyle",
+                        "printedName": "SwiftUI.ForegroundStyle",
+                        "usr": "s:7SwiftUI15ForegroundStyleV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI10_ShapeViewV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_RemoveGlobalActorIsolation",
+            "printedName": "_RemoveGlobalActorIsolation",
+            "usr": "s:7SwiftUI27_RemoveGlobalActorIsolationP",
+            "mangledName": "$s7SwiftUI27_RemoveGlobalActorIsolationP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VericalLine",
+        "printedName": "VericalLine",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "path",
+            "printedName": "path(in:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Path",
+                "printedName": "SwiftUI.Path",
+                "usr": "s:7SwiftUI4PathV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14ABUtilitiesKit11VericalLineV4path2in7SwiftUI4PathVSo6CGRectV_tF",
+            "mangledName": "$s14ABUtilitiesKit11VericalLineV4path2in7SwiftUI4PathVSo6CGRectV_tF",
+            "moduleName": "ABUtilitiesKit",
+            "declAttributes": [
+              "Nonisolated",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14ABUtilitiesKit11VericalLineV",
+        "mangledName": "$s14ABUtilitiesKit11VericalLineV",
+        "moduleName": "ABUtilitiesKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Shape",
+            "printedName": "Shape",
+            "usr": "s:7SwiftUI5ShapeP",
+            "mangledName": "$s7SwiftUI5ShapeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Animatable",
+            "printedName": "Animatable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AnimatableData",
+                "printedName": "AnimatableData",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EmptyAnimatableData",
+                    "printedName": "SwiftUI.EmptyAnimatableData",
+                    "usr": "s:7SwiftUI19EmptyAnimatableDataV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10AnimatableP",
+            "mangledName": "$s7SwiftUI10AnimatableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "_ShapeView",
+                    "printedName": "SwiftUI._ShapeView<ABUtilitiesKit.VericalLine, SwiftUI.ForegroundStyle>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VericalLine",
+                        "printedName": "ABUtilitiesKit.VericalLine",
+                        "usr": "s:14ABUtilitiesKit11VericalLineV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ForegroundStyle",
+                        "printedName": "SwiftUI.ForegroundStyle",
+                        "usr": "s:7SwiftUI15ForegroundStyleV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI10_ShapeViewV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_RemoveGlobalActorIsolation",
+            "printedName": "_RemoveGlobalActorIsolation",
+            "usr": "s:7SwiftUI27_RemoveGlobalActorIsolationP",
+            "mangledName": "$s7SwiftUI27_RemoveGlobalActorIsolationP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
         "moduleName": "ABUtilitiesKit"
       },
       {
@@ -10105,364 +10389,364 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 292,
       "length": 31,
       "value": "\"hh:mm:ss a 'on' MMMM dd, yyyy\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 457,
       "length": 26,
       "value": "\"E, d MMM yyyy HH:mm:ss Z\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 575,
       "length": 24,
       "value": "\"yyyy-MM-dd'T'HH:mm:ssZ\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 699,
       "length": 19,
       "value": "\"EEEE, MMM d, yyyy\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 815,
       "length": 18,
       "value": "\"MM-dd-yyyy HH:mm\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 943,
       "length": 15,
       "value": "\"MMM d, h:mm a\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 1075,
       "length": 14,
       "value": "\"HH:mm:ss.SSS\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 1170,
       "length": 13,
       "value": "\"MMM d, yyyy\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 1283,
       "length": 12,
       "value": "\"MM\/dd\/yyyy\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 1376,
       "length": 12,
       "value": "\"hh:mm:ss a\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 1472,
       "length": 11,
       "value": "\"MMMM yyyy\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 1575,
       "length": 10,
       "value": "\"dd.MM.yy\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 1689,
       "length": 13,
       "value": "\"E, d MMM yy\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 1799,
       "length": 10,
       "value": "\"E, d MMM\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 1899,
       "length": 11,
       "value": "\"MMM d, yy\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 2028,
       "length": 19,
       "value": "\"EEEE, d MMMM yyyy\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 2141,
       "length": 14,
       "value": "\"MMMM d, yyyy\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 2235,
       "length": 12,
       "value": "\"d MMM yyyy\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 2312,
       "length": 6,
       "value": "\"yyyy\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 2383,
       "length": 4,
       "value": "\"yy\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 2453,
       "length": 7,
       "value": "\"MM-dd\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 2537,
       "length": 7,
       "value": "\"MMM d\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 2624,
       "length": 8,
       "value": "\"MMM yy\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 2703,
       "length": 10,
       "value": "\"MMM yyyy\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 2764,
       "length": 3,
       "value": "\"d\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 2834,
       "length": 6,
       "value": "\"EEEE\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 2897,
       "length": 5,
       "value": "\"MMM\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 2972,
       "length": 6,
       "value": "\"MMMM\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 3049,
       "length": 8,
       "value": "\"h:mm a\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 3126,
       "length": 10,
       "value": "\"HH:mm:ss\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 3212,
       "length": 9,
       "value": "\"hh:mm a\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 3288,
       "length": 4,
       "value": "\"MM\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 3356,
       "length": 7,
       "value": "\"MMMMM\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/Foundation\/Date+String.swift",
       "kind": "StringLiteral",
       "offset": 3435,
       "length": 3,
       "value": "\"E\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/SwiftUI\/View.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/SwiftUI\/View.swift",
       "kind": "IntegerLiteral",
       "offset": 4814,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/UIKit\/UIButton.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/UIKit\/UIButton.swift",
       "kind": "FloatLiteral",
       "offset": 441,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/UIKit\/UIColor.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/UIKit\/UIColor.swift",
       "kind": "FloatLiteral",
       "offset": 592,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/UIKit\/UIView.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/UIKit\/UIView.swift",
       "kind": "IntegerLiteral",
       "offset": 2948,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/UIKit\/UIView.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/UIKit\/UIView.swift",
       "kind": "IntegerLiteral",
       "offset": 3585,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/UIKit\/UIView.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/UIKit\/UIView.swift",
       "kind": "IntegerLiteral",
       "offset": 5527,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/UIKit\/UIView.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABExtentions\/UIKit\/UIView.swift",
       "kind": "FloatLiteral",
       "offset": 5609,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilities\/Common\/ABAlert.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilities\/Common\/ABAlert.swift",
       "kind": "IntegerLiteral",
       "offset": 760,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilities\/Common\/ABAlert.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilities\/Common\/ABAlert.swift",
       "kind": "IntegerLiteral",
       "offset": 868,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilities\/Common\/ABAlert.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilities\/Common\/ABAlert.swift",
       "kind": "IntegerLiteral",
       "offset": 2904,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilities\/Common\/ABAlert.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilities\/Common\/ABAlert.swift",
       "kind": "IntegerLiteral",
       "offset": 3052,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilities\/Common\/ABAlert.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilities\/Common\/ABAlert.swift",
       "kind": "IntegerLiteral",
       "offset": 4043,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilities\/Common\/ABAlert.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilities\/Common\/ABAlert.swift",
       "kind": "IntegerLiteral",
       "offset": 4155,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilities\/Common\/ABAlert.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilities\/Common\/ABAlert.swift",
       "kind": "StringLiteral",
       "offset": 4222,
       "length": 4,
       "value": "\"Ok\""
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilities\/Common\/ABAlert.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilities\/Common\/ABAlert.swift",
       "kind": "IntegerLiteral",
       "offset": 4856,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilities\/Common\/ABAlert.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilities\/Common\/ABAlert.swift",
       "kind": "IntegerLiteral",
       "offset": 5030,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilities\/Common\/ABAlert.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilities\/Common\/ABAlert.swift",
       "kind": "IntegerLiteral",
       "offset": 5204,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/kunjbarvalia\/Desktop\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilities\/Common\/ABAlert.swift",
+      "filePath": "\/Users\/kunjbarvalia\/Documents\/Libraries\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilitiesKit\/ABUtilities\/Common\/ABAlert.swift",
       "kind": "IntegerLiteral",
       "offset": 6536,
       "length": 2,

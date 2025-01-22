@@ -7,7 +7,7 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public enum APIMethod : Swift.String {
+public enum ABAPIMethod : Swift.String {
   case get
   case post
   case put
@@ -19,11 +19,11 @@ public enum APIMethod : Swift.String {
     get
   }
 }
-public enum Request {
+public enum ABRequest {
   case jsonEncoding(_: [Swift.String : Any]?)
   case urlEncoding(_: [Swift.String : Any]?)
   case queryString(_: [Swift.String : Any]?)
-  case multiPart(_: ABNetworkKit.MultipartRequest)
+  case multiPart(_: ABNetworkKit.ABMultipartRequest)
   case requestPlain
 }
 extension Foundation.Data {
@@ -44,19 +44,19 @@ extension Foundation.URLRequest {
     get
   }
 }
-public protocol APIProtocol {
-  var method: ABNetworkKit.APIMethod { get }
+public protocol ABAPIProtocol {
+  var method: ABNetworkKit.ABAPIMethod { get }
   var baseURL: Swift.String { get }
   var path: Swift.String { get }
-  var task: ABNetworkKit.Request { get }
+  var task: ABNetworkKit.ABRequest { get }
   var header: [Swift.String : Swift.String] { get }
 }
-public enum APIService {
-  public static func request(_ rout: any ABNetworkKit.APIProtocol) async throws -> Foundation.Data
-  public static func request<T>(_ rout: any ABNetworkKit.APIProtocol) async throws -> T where T : Swift.Decodable, T : Swift.Encodable
-  public static func request(_ rout: any ABNetworkKit.APIProtocol) async throws -> [Swift.String : Any]
+public enum ABAPIService {
+  public static func request(_ rout: any ABNetworkKit.ABAPIProtocol) async throws -> Foundation.Data
+  public static func request<T>(_ rout: any ABNetworkKit.ABAPIProtocol) async throws -> T where T : Swift.Decodable, T : Swift.Encodable
+  public static func request(_ rout: any ABNetworkKit.ABAPIProtocol) async throws -> [Swift.String : Any]
 }
-public struct MultipartRequest {
+public struct ABMultipartRequest {
   public let boundary: Swift.String
   public init(boundary: Swift.String = UUID().uuidString)
   public mutating func add(key: Swift.String, value: Swift.String)
@@ -68,6 +68,6 @@ public struct MultipartRequest {
     get
   }
 }
-extension ABNetworkKit.APIMethod : Swift.Equatable {}
-extension ABNetworkKit.APIMethod : Swift.Hashable {}
-extension ABNetworkKit.APIMethod : Swift.RawRepresentable {}
+extension ABNetworkKit.ABAPIMethod : Swift.Equatable {}
+extension ABNetworkKit.ABAPIMethod : Swift.Hashable {}
+extension ABNetworkKit.ABAPIMethod : Swift.RawRepresentable {}
